@@ -1,0 +1,97 @@
+			#pantalla{
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				background: url('../images/fondos/escuela1.png') no-repeat;
+
+			}
+			#controles{
+				position: absolute;
+				width: 100%;
+				height: 10%;
+				top: 90%;
+				left:0%;
+
+			}
+			/* INICIO STAN*/
+			#cuerpo{
+				position: absolute;
+				width: 400px;
+				height: 500px;
+				background: url('../images/1/cuerpo.png') no-repeat;
+				animation: latir;
+			}
+			#ojo{
+				position: absolute;
+				width: 400px;
+				height: 500px;
+				background: url('../images/1/ojos.png') no-repeat;
+				animation: pesta;
+			}
+			#boca{
+				position: absolute;
+				width: 400px;
+				height: 500px;
+				background: url('../images/1/boca1.png') no-repeat;
+				
+				animation: hablar;
+			}
+			#cabeza{
+				position: absolute;
+				width: 400px;
+				height: 500px;
+				background: url('../images/1/cabeza.png') no-repeat;
+				
+				animation: latirc;
+			}
+			/* FIN STAN*/
+			/* INICIO ERICK*/
+			#cuerpop2{
+				position: absolute;
+				width: 400px;
+				height: 500px;
+				background: url('../images/2/cuerpo.png') no-repeat;
+				animation: latire;
+			}
+			#ojop2{
+				position: absolute;
+				width: 400px;
+				height: 500px;
+				background: url('../images/2/ojos.png') no-repeat;
+				animation: pestae;
+			}
+			#bocap2{
+				position: absolute;
+				width: 400px;
+				height: 500px;
+				background: url('../images/2/boca1.png') no-repeat;
+				
+				animation: hablare;
+			}
+			#cabezap2{
+				position: absolute;
+				width: 400px;
+				height: 500px;
+				background: url('../images/2/cabeza.png') no-repeat;
+				
+				animation: latirce;
+			}
+
+			.el{
+				position: absolute;
+				top: 50px;
+				left: 50px;
+				width: 100px;
+				height: 100px;
+				background-color: lightgreen;
+				animation: ball-move;
+			}
+			.dos{
+				position: absolute;
+				top: 550px;
+				left: 50px;
+				width: 100px;
+				height: 100px;
+				background-color: lightpink;
+				
+			}
